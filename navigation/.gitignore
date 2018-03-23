@@ -12,9 +12,9 @@
 .svn/
 
 # IntelliJ related
-*.iml
-*.ipr
-*.iws
+.iml
+.ipr
+.iws
 .idea/
 
 # Flutter repo-specific
