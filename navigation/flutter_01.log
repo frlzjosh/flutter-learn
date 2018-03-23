@@ -1,0 +1,62 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+FileSystemException: FileSystemException: Cannot open file, path = 'C:\flutter\bin\cache\lockfile' (OS Error: Access is denied.
+, errno = 5)
+
+```
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:351)
+#1      _rootRunUnary (dart:async/zone.dart:1134)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1031)
+#3      _FutureListener.handleValue (dart:async/future_impl.dart:129)
+#4      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:633)
+#5      _Future._propagateToListeners (dart:async/future_impl.dart:662)
+#6      _Future._completeWithValue (dart:async/future_impl.dart:477)
+#7      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:507)
+#8      _rootRun (dart:async/zone.dart:1126)
+#9      _CustomZone.run (dart:async/zone.dart:1023)
+#10     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:949)
+#11     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#12     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#13     _runPendingImmediateCallback (dart:isolate-patch/dart:isolate/isolate_patch.dart:113)
+#14     _RawReceivePortImpl._handleMessage (dart:isolate-patch/dart:isolate/isolate_patch.dart:166)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v0.1.5, on Microsoft Windows [Version 10.0.16299.309], locale en-US)
+    • Flutter version 0.1.5 at C:\flutter
+    • Framework revision 3ea4d06340 (4 weeks ago), 2018-02-22 11:12:39 -0800
+    • Engine revision ead227f118
+    • Dart version 2.0.0-dev.28.0.flutter-0b4f01f759
+
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.io/setup/#android-setup for detailed instructions).
+      If Android SDK has been installed to a custom location, set $ANDROID_HOME to that location.
+
+[✓] Android Studio (version 3.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-915-b01)
+
+[✓] IntelliJ IDEA Community Edition (version 2017.2)
+    • Flutter plugin version 21.2.2
+    • Dart plugin version 172.3544.34
+
+[✓] VS Code (version 1.21.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    • Dart Code extension version 2.10.0
+
+[✓] Connected devices (1 available)
+    • Android SDK built for x86 • emulator-5554 • android-x86 • Android 8.1.0 (API 27) (emulator)
+
+! Doctor found issues in 1 category.
+```
