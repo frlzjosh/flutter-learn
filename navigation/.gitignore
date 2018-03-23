@@ -8,3 +8,5 @@ build/
 ios/.generated/
 packages
 .flutter-plugins
+android.iml
+.flutter_01.log
