@@ -11,14 +11,13 @@
 .svn/
 navigation_android.iml
 flutter_01.log
-navigation.iml
+.navigation.iml
 .metadata
-pubspec.yaml
-pubspec.lock
-adnroid.iml
+.pubspec.yaml
+.pubspec.lock
+.adnroid.iml
 # IntelliJ related
 *.iml
-.idea
 *.ipr
 *.iws
 .idea/
